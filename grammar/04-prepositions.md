@@ -11,7 +11,7 @@ graph TD
     PREP --> LANG["Com idiomas / With languages / Avec les langues"]
 
     TIME --> T_EN["🇬🇧 at 3pm · on Monday · in June"]
-    TIME --> T_FR["🇫🇷 à 15h · lundi · en juin"]
+    TIME --> T_FR["🇫🇷 à 15h · le lundi · en juin"]
     TIME --> T_PT["🇧🇷 às 15h · na segunda · em junho"]
 
     PLACE --> P_EN["🇬🇧 in the city · on the street · at school"]

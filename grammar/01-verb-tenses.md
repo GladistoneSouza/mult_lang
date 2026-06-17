@@ -10,13 +10,35 @@ timeline
         EN : wrote · spoke · learned
         FR : j'ai écrit · j'ai parlé · j'ai appris
     section Presente / Present / Présent
-        PT : escrevo · falo · aprendo
-        EN : write · speak · learn
-        FR : écris · parle · apprends
+        PT : eu escrevo · eu falo · eu aprendo
+        EN : I write · I speak · I learn
+        FR : j'écris · je parle · j'apprends
     section Futuro / Future / Futur
         PT : vou escrever · vou falar · vou aprender
-        EN : will write · will speak · will learn
-        FR : vais écrire · vais parler · vais apprendre
+        EN : I will write · I will speak · I will learn
+        FR : je vais écrire · je vais parler · je vais apprendre
+```
+
+### Irregular verbs — graph TD
+
+```mermaid
+graph TD
+    ROOT["⚡ Verbos Irregulares / Irregular Verbs"]
+    ROOT --> WRITE["write / écrire"]
+    ROOT --> SPEAK["speak / parler"]
+    ROOT --> LEARN["learn / apprendre"]
+
+    WRITE --> W1["Past: wrote"]
+    WRITE --> W2["Participle: written"]
+    WRITE --> W3["FR passé: j'ai écrit"]
+
+    SPEAK --> S1["Past: spoke"]
+    SPEAK --> S2["Participle: spoken"]
+    SPEAK --> S3["FR passé: j'ai parlé"]
+
+    LEARN --> L1["Past: learned ✅ regular"]
+    LEARN --> L2["Participle: learned"]
+    LEARN --> L3["FR passé: j'ai appris"]
 ```
 
 ### Irregular verbs — quick reference
@@ -41,13 +63,13 @@ timeline
 
 ## 3. Common Mistakes
 
-❌ I writed a message.
-✅ I **wrote** a message.
-📌 "Write" é irregular. Nunca adicione "-ed" em verbos irregulares.
+❌ She speaked to me yesterday.
+✅ She **spoke** to me yesterday.
+📌 "Speak" é irregular. Nunca adicione "-ed": speak → **spoke** → spoken.
 
-❌ I have write many texts.
-✅ I have **written** many texts.
-📌 Com "have/has/had", use sempre o particípio passado: **written**, não "wrote" ou "write".
+❌ I have speak French for one year.
+✅ I have **spoken** French for one year.
+📌 Com "have/has", use sempre o particípio: **spoken**, não "speak" ou "spoke".
 
 ❌ J'ai écris un message. *(erro comum em francês)*
 ✅ J'ai **écrit** un message.
