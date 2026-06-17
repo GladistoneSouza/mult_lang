@@ -8,7 +8,7 @@ timeline
     section Passado / Past / Passé
         PT : escrevi · falei · aprendi
         EN : wrote · spoke · learned
-        FR : ai écrit · ai parlé · ai appris
+        FR : j'ai écrit · j'ai parlé · j'ai appris
     section Presente / Present / Présent
         PT : escrevo · falo · aprendo
         EN : write · speak · learn
