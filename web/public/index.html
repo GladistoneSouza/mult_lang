@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101d1f">
+  <title>Mult Lang</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it@14/dist/markdown-it.min.js"></script>
+</head>
+<body>
+  <header><button id="back" class="icon hidden">←</button><div><small>mult_lang</small><h1 id="title">Meu estudo</h1></div><span class="badge">FR</span></header>
+  <main>
+    <section id="home">
+      <div class="hero"><p>CURSO ATUAL</p><h2>Français 🇫🇷</h2><span id="progressText">Carregando…</span><div class="bar"><i id="bar"></i></div></div>
+      <label class="search"><span>⌕</span><input id="search" placeholder="Buscar no que já estudamos"></label>
+      <h3>Lições liberadas</h3><div id="lessons" class="cards"></div>
+    </section>
+    <article id="reader" class="hidden"><div id="markdown"></div><button id="complete" class="complete"></button></article>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
